@@ -15,7 +15,7 @@ RUN mkdir -p /assignment/docs /assignment/logs
 
 # Create files inside assignment folder
 RUN echo "This is a sample log file for Docker assignment." > /assignment/logs/app.log
-RUN echo "User: mayur was created inside container" > /assignment/docs/user-info.txt
+RUN echo "User: chetna was created inside container" > /assignment/docs/user-info.txt
 RUN echo "This is sample notes file." > /assignment/docs/notes.txt
 
 # Copy example file (so cat command works)
