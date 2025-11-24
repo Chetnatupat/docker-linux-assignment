@@ -1,3 +1,4 @@
+Q1
 1. Infrastructure as Code (IaC)
 
 What it is: Treating infrastructure (networks, VMs, load balancers, storage, etc.) as versioned, declarative code that can be reviewed, tested, and executed to provision resources automatically.
@@ -195,7 +196,8 @@ Too many low-priority alerts, causing developers to ignore tooling.
 Only scanning at build time (no runtime monitoring), missing configuration drift or runtime attacks.
 
 Real-world example: On PR, CI runs SAST and SCA; high-severity vulnerabilities block merge. Image pushed to registry is scanned; if it fails policy, it’s quarantined. OPA enforces that IaC templates disallow public database access.
-Step-by-Step Explanation (In Words) of How the Assignment Was Completed
+
+Q2 How the Assignment Was Completed
 1️⃣ Understanding the Task and Preparing the Project
 
 First, I reviewed the assignment instructions to determine what needed to be containerized.
@@ -242,7 +244,7 @@ This reflects the DevOps practice of eliminating the phrase:
 
 🔹 How It Improves Linux Knowledge
 
-Behind the scenes, Docker containers run on Linux, so working with Docker indirectly forces you to work with Linux concepts.
+Q3 Behind the scenes, Docker containers run on Linux, so working with Docker indirectly forces you to work with Linux concepts.
 
 Skills gained during the assignment:
 Linux Concept Learned	How the Assignment Taught It
